@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
         binding.pagerCalendar.setLayoutManager(manager);
         binding.pagerCalendar.setAdapter(calendarAdapter);
         observe();
-
     }
 
     private void observe() {
